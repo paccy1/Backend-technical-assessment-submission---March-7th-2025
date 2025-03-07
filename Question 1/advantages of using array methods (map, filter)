@@ -1,0 +1,12 @@
+Why is map often preferred over traditional loops for transforming data in arrays?It is due to 
+Performance & Readability 
+
+Why Readability:
+
+map is more declarative and concise compared to traditional loops like for or forEach. It’s easier to understand because it clearly indicates that we are transforming an array.
+Example: map tells you that you are mapping one array to another, whereas a for loop requires more setup and is less clear in intent.
+
+Why Performance:
+
+In terms of raw performance, there isn’t a huge difference between map and traditional loops for simple operations. However, map is optimized internally and can be more performant when handling operations like filtering or transforming data.
+Important: For most cases in modern JavaScript, the performance difference is negligible, and map is preferred for its cleaner syntax.
