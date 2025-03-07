@@ -1,0 +1,13 @@
+When is recursion less efficient than iteration?
+Recursion can be less efficient than iteration due to:
+
+Stack Overflow: Recursion uses the call stack, which can overflow if the recursion depth is too large.
+Performance: Each recursive call has its own overhead due to function calls, which can lead to slower performance.
+Example:
+When calculating the factorial of a large number using recursion, deep recursion can cause a stack overflow or performance degradation due to repeated function calls.
+
+Iterative is better for large numbers
+
+When to prefer iteration:
+
+For large datasets or deep recursion: Iteration is often preferred because it doesn’t use the call stack and is typically faster.
